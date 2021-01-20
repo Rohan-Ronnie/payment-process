@@ -1,0 +1,1 @@
+curl -D - -X POST http://127.0.0.1:8000/payment/service/v1/process_payment/?app_id=68548109-ce24-4831-gstd-8659-2e42d1bcd87  -H "Content-Type:application/json" -d '{"Credit_Card_Number": "1234567890", "Card_Holder": "Ajit", "ExpirationDate": "2021-04-05 14:16:07.479270", "SecurityCode": "1234", "Amount":200}'
